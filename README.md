@@ -1,27 +1,26 @@
-# package_name
+# green_screen_picture
 
-Description. 
-The package package_name is used to:
-	- 
-	-
+The package green_screen_picture is used to merge background to green screen picture
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install green_screen_picture
 
 ```bash
-pip install package_name
+pip install green_screen_picture
 ```
 
 ## Usage
 
 ```python
-from package_name import file1_name
-file1_name.my_function()
+from green_screen_picture.combination import combine
+combine(picture, background)
 ```
 
 ## Author
-My_name
+
+mrcs22
 
 ## License
+
 [MIT](https://choosealicense.com/licenses/mit/)
