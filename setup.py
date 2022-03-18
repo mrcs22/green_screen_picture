@@ -7,14 +7,14 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_name",
+    name="green_screen_picture",
     version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
+    author="mrcs22",
+    author_email="marcusmoraes2010@hotmail.com",
+    description="simple package to add background images to green screen",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    url="https://github.com/mrcs22/green_screen_picture"
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',
